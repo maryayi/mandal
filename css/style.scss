@@ -18,6 +18,15 @@ body {
   font-family: 'yekan', tahoma, sans-serif;
 }
 
+.navbar-logo {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  margin: 5px auto;
+  img {
+width: 45px;
+  }
+}
 
 .fa-github {
   color: $github-color;
