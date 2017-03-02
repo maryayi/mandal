@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "yekan";
+  src: url('../fonts/Yekan.eot');
+  src: url('../fonts/Yekan.eot?#iefix') format("embedded-opentype"),
+   url('../fonts/Yekan.woff') format("woff"),
+   url('../fonts/Yekan.ttf') format("truetype"),
+   url('../fonts/Yekan.svg#BYekan') format("svg");
+  font-weight: normal;
+  font-style: normal
+}
+
+
+$g-plus-color: #DD5044;
+$twitter-color: #1DA1F2;
+$github-color: #171515;
+
+body {
+  font-family: 'yekan', tahoma, sans-serif;
+}
+
+
+.fa-github {
+  color: $github-color;
+  &:hover {
+    color: lighten($github-color, 20%);
+  }
+}
+
+.fa-twitter {
+  color: $twitter-color;
+  &:hover {
+    color: lighten($twitter-color, 20%);
+  }
+}
+
+.fa-google-plus {
+  color: $g-plus-color;
+  &:hover {
+    color: lighten($g-plus-color, 20%);
+  }
+}
